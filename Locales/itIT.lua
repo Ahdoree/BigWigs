@@ -84,36 +84,36 @@ L.littleWigsExtras = {
 	["LittleWigs_CurrentSeason"] = "Stagione attuale",
 }
 --L.dayNamesShort = {
---	"SUN", -- Sunday
---	"MON", -- Monday
---	"TUE", -- Tuesday
---	"WED", -- Wednesday
---	"THU", -- Thursday
---	"FRI", -- Friday
---	"SAT", -- Saturday
+	"DOM", -- Sunday
+	"LUN", -- Monday
+	"MAR", -- Tuesday
+	"MER", -- Wednesday
+	"GIO", -- Thursday
+	"VEN", -- Friday
+	"SAB", -- Saturday
 --}
 --L.dayNames = {
---	"Sunday",
---	"Monday",
---	"Tuesday",
---	"Wednesday",
---	"Thursday",
---	"Friday",
---	"Saturday",
+	"Domenica",
+	"Lunedi",
+	"Martedi",
+	"Mercoledi",
+	"Giovedi",
+	"Venerdi",
+	"Sabato",
 --}
 --L.monthNames = {
---	"January",
---	"February",
---	"March",
---	"April",
---	"May",
---	"June",
---	"July",
---	"August",
---	"September",
---	"October",
---	"November",
---	"December",
+	"Gennaio",
+	"Febbraio",
+	"Marzo",
+	"Aprile",
+	"Maggio",
+	"Giugno",
+	"Luglio",
+	"Agosto",
+	"Settembre",
+	"Ottobre",
+	"Novembre",
+	"Dicembre",
 --}
 --L.dateFormat = "%s %d %s %d" -- Date format: "Monday 1 January 2025"
 
@@ -327,22 +327,22 @@ L.autoRoleExplainer = "Quando ti unisci ad un gruppo, o cambii le tue spec mentr
 -- BattleRes.lua
 --
 
---L.battleResTitle = "Battle Res"
---L.battleResDesc = "An icon that shows how many battle resurrection charges are available and the time until another charge is gained."
---L.battleResDesc2 = "\nYour |cFF33FF99Battle Resurrection History|r can be viewed in the tooltip when you mouse over the icon.\n\n"
---L.battleResHistory = "Battle Res History:"
---L.battleResResetAll = "Reset all the Battle Resurrection settings to their default values."
---L.battleResDurationText = "Duration Text"
---L.battleResChargesText = "Charges Text"
---L.battleResNoCharges = "0 charges available"
---L.battleResHasCharges = "1 or more charges available"
---L.battleResPlaySound = "Play a sound when a new charge is gained"
---L.iconTextureSpellID = "|T%d:0:0:0:0:64:64:4:60:4:60|t Icon Texture (Spell ID)"
---L.iconTextureSpellIDError = "You must type a valid spell ID to use as the icon texture."
---L.battleResModeIcon = "Mode: Icon"
---L.battleResModeText = "Mode: Text Only"
---L.battleResModeTextTooltip = "Showing a temporary background to help you move the Battle Res feature and to see where the mouseover area is."
---L.battleResNoteTooltip = "Note: This tooltip will only show when you are out of combat."
+L.battleResTitle = "Battle Res"
+L.battleResDesc = "Un'icona che mostra quante cariche di resurrezione in battaglia sono disponibili e il tempo necessario per ottenerne un'altra."
+L.battleResDesc2 = "\nYour |cFF33FF99Battle Resurrection History|r può essere visualizzato nella descrizione comandi quando si passa il mouse sopra l'icona.\n\n"
+L.battleResHistory = "Storia dei Battle Res:"
+L.battleResResetAll = "Ripristina tutte le impostazioni di resurrezione in battaglia ai loro valori predefiniti."
+L.battleResDurationText = "Testo Durata"
+L.battleResChargesText = "Testo cariche"
+L.battleResNoCharges = "0 cariche disponibile"
+L.battleResHasCharges = "1 o piu cariche disponibile"
+L.battleResPlaySound = "Riproduci un suono quando viene acquisita una nuova carica"
+L.iconTextureSpellID = "|T%d:0:0:0:0:64:64:4:60:4:60|t Icona Struttura (Spell ID)"
+L.iconTextureSpellIDError = "Devi digitare un Spell ID valido da usare come Struttura dell'icona."
+L.battleResModeIcon = "Modo: Icona"
+L.battleResModeText = "Modo: Solo Testo"
+L.battleResModeTextTooltip = "Mostra uno sfondo temporaneo per aiutarti a spostare la funzione Battle Res e per vedere dove si trova l'area del mouse."
+L.battleResNoteTooltip = "Nota: Questo suggerimento verrà visualizzato solo quando non sarai in combattimento."
 
 -----------------------------------------------------------------------
 -- Keystones.lua
